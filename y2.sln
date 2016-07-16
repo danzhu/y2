@@ -5,16 +5,30 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "y2", "y2\y2.csproj", "{1C17BBCC-46B4-498D-854E-4316F0D3C1FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECS", "ECS\ECS.csproj", "{4DEE3809-1939-4B9D-9E92-D079AAFE3063}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C17BBCC-46B4-498D-854E-4316F0D3C1FA}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{1C17BBCC-46B4-498D-854E-4316F0D3C1FA}.Debug|x86.ActiveCfg = Debug|x86
 		{1C17BBCC-46B4-498D-854E-4316F0D3C1FA}.Debug|x86.Build.0 = Debug|x86
+		{1C17BBCC-46B4-498D-854E-4316F0D3C1FA}.Release|Any CPU.ActiveCfg = Release|x86
 		{1C17BBCC-46B4-498D-854E-4316F0D3C1FA}.Release|x86.ActiveCfg = Release|x86
 		{1C17BBCC-46B4-498D-854E-4316F0D3C1FA}.Release|x86.Build.0 = Release|x86
+		{4DEE3809-1939-4B9D-9E92-D079AAFE3063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEE3809-1939-4B9D-9E92-D079AAFE3063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEE3809-1939-4B9D-9E92-D079AAFE3063}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4DEE3809-1939-4B9D-9E92-D079AAFE3063}.Debug|x86.Build.0 = Debug|Any CPU
+		{4DEE3809-1939-4B9D-9E92-D079AAFE3063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEE3809-1939-4B9D-9E92-D079AAFE3063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DEE3809-1939-4B9D-9E92-D079AAFE3063}.Release|x86.ActiveCfg = Release|Any CPU
+		{4DEE3809-1939-4B9D-9E92-D079AAFE3063}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
